@@ -13,12 +13,14 @@
         android:gravity="center"
         android:text="Dados Pessoais"
         android:textSize="30sp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
         android:orientation="horizontal">
-z
+        z
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,6 +54,7 @@ z
             android:minWidth="200sp" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -69,10 +72,10 @@ z
             android:id="@+id/et_dt"
             android:layout_width="148dp"
             android:layout_height="wrap_content"
-            android:minWidth="200sp"
-            tools:text="@tools:sample/date/ddmmyy" />
+            android:minWidth="200sp" />
 
     </LinearLayout>
+
     <Button
         android:id="@+id/bt_salvar"
         android:layout_width="match_parent"
